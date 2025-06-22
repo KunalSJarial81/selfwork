@@ -1,0 +1,168 @@
+Why Cloud:
+pay as you go
+scalibelty
+Remote exxeciablity
+
+Benifets of Cloud:
+
+01.automatice back and SW update
+02.automation of task
+03.better storage
+04.cost effective
+05.dister recover and lost prevension
+06.gieo redundetnt
+07.high security
+08.hilighly felxible
+09.low mentanence and zero resik failuer
+10.remote exxeciblity
+11.sclablity
+
+Tyope of cloud
+1. public cloud
+	That is available publicly, any cloud which is payble 
+2. private cloud
+	That is only for particular company for its employee
+	owned by single orginization
+3. Hybrid cloud
+	Make use of both public and private
+4. Comunity cloud
+	one of more combine private cloud
+
+Type of cloud services:
+1. Infrastructure as a Service (IaaS) (Eg Virtual machine) (***Zoom Car)
+	Provides virtualized computing resources over the internet.
+	Users manage operating systems, applications, and storage while the cloud provider manages the underlying infrastructure.
+	Examples:
+		Microsoft Azure Virtual Machines
+		Amazon EC2 (Elastic Compute Cloud)
+		Google Compute Engine
+
+2. Platform as a Service (PaaS) (Eg Server with select application)(***Uber )
+	Offers a platform that allows developers to build, deploy, and manage applications without managing infrastructure.
+	Includes tools for development, databases, and application hosting.
+	Examples:
+		AWS Elastic Beanstalk
+		Azure App Services
+		Google App Engine
+		
+
+3. Software as a Service (SaaS)	(External Selected application)
+	Delivers fully functional software applications over the internet on a subscription basis.
+	Users only interact with the application, while the provider manages everything else.
+	Examples:
+		Microsoft 365
+		Google Workspace (Docs, Gmail, Drive)
+		Salesforce
+
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+We would be learning "Azure"
+
+ETL (Extract, Transform, Load)		
+ELT (Extract, Load, Transform)		
+EL  (Extract, Load)		
+1. Stages of ETL Process
+	Extract
+		Retrieves data from various sources (databases, APIs, cloud storage, etc.).
+		Common sources: SQL/NoSQL databases, CSV/Excel files, cloud applications, APIs.
+		Example tools: SQL queries, APIs, web scraping.
+		
+		
+		
+		
+		
+		Q2D 
+
+	Transform
+		Cleans, formats, and enriches data (removing duplicates, converting data types, aggregating).
+		Common operations: filtering, joining datasets, calculating new metrics.
+		Tools: Python (pandas), SQL transformations, Apache Spark, Azure Data Factory (ADF).
+
+	Load
+		Moves transformed data into a target system like a data warehouse (Azure Synapse, Snowflake).
+		Methods: Full load (all data) or Incremental load (only new/updated data).
+		Example tools: SQL scripts, batch jobs, streaming pipelines.
+
+2. On-Premises & Enterprise ETL Tools (For large-scale, secure environments)
+	? Informatica PowerCenter – Robust ETL tool with high-performance data integration.
+	? Microsoft SSIS (SQL Server Integration Services) – ETL tool for SQL Server environments.
+	? IBM DataStage – Enterprise ETL for complex data transformation.
+	? Talend Data Fabric – Hybrid ETL for cloud & on-prem.		
+
+1. Cloud-based ETL Tools (Managed services, scalable)
+	? Azure Data Factory (ADF) – Microsoft’s cloud-based ETL tool for building data pipelines.
+	? AWS Glue – Serverless ETL tool from Amazon Web Services.
+	? Google Cloud Dataflow – ETL service using Apache Beam.
+	? Snowflake Snowpipe – Continuous data ingestion tool.	
+	
+	
+	
+DataSet
+LinkServices (Connection) 
+IR: Intrigration Runtime
+Type of Intrigration Runtime
+	
+	1. Azure Integration Runtime (Azure IR)
+		? Fully Managed by Microsoft – No infrastructure management required.
+		? Best for Cloud-to-Cloud Data Movement & Transformations.
+		? Supports:
+	Copying data between cloud data stores (Azure Blob, Azure SQL, Cosmos DB, etc.).
+
+	2. Self-hosted Integration Runtime (Self-hosted IR)
+		? Installed on a Virtual Machine (VM) or an On-Premises Server.
+		? Best for Hybrid Scenarios: On-Prem to Cloud or Cloud to On-Prem.
+		? Supports:
+	
+	Copying data from on-premises SQL Server, Oracle, MySQL, etc. to Azure.
+	
+	3. Azure-SSIS Integration Runtime (Azure-SSIS IR)
+		? Managed Compute for Running SSIS Packages in Azure.
+		? Best for Migrating SSIS Workloads to Azure Without Rewriting.
+		? Supports:
+	
+	Running ETL workflows built in SSIS without modifying them.
+	
+Types of Triger
+1. Schedule Trigger
+2. Tumbling Triger
+3. Event Triger
+	a. Storage Event
+	b. Custom Event
+	
+'''''''''''''''''''''''''''''''''''''''''''''''''''''
+AWS - Storage account
+1 Blob storage - Flat file name
+2 Azure data lake storage gen2 - Herirical
+
+Both combined called as Storage Account
+
+1. Create Storage account
+create folder
+source 
+sink
+2. create data factory
+
+
+-----------------------------------------------
+1 Create resource
+2 create storage
+3 Copy all files
+
+-----------------------------------------------
+
+1. copy REST web api
+
+2. SQL 
+CREATE SCHEMA IF NOT EXISTS myschema;
+
+create table myschema.student
+(
+roll int,
+sname varchar(50),
+gender varchar(50),
+age int
+);
+
+select * from student;
+
+insert into student values(1,'Name1','m',44);
+insert into student values(2,'Name2','m',44);
