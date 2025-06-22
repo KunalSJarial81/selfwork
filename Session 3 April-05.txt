@@ -1,5 +1,3 @@
-kunal
-
 Why Cloud:
 pay as you go
 scalibelty
@@ -147,24 +145,4 @@ sink
 -----------------------------------------------
 1 Create resource
 2 create storage
-3 Copy all files
-
------------------------------------------------
-
-1. copy REST web api
-
-2. SQL 
-CREATE SCHEMA IF NOT EXISTS myschema;
-
-create table myschema.student
-(
-roll int,
-sname varchar(50),
-gender varchar(50),
-age int
-);
-
-select * from student;
-
-insert into student values(1,'Name1','m',44);
-insert into student values(2,'Name2','m',44);
+3 K
